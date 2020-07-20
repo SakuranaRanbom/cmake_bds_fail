@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/plugin.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/symbol.hpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/插件模块.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/符号定位.hpp" charset="GBK" />
+  </component>
+</project>

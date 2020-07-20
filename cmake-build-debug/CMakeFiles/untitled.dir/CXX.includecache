@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/BDXCore/untitled/Detours/include/detours.h
+imagehlp.h
+-
+dbghelp.h
+-
+stdio.h
+-
+limits.h
+-
+
+D:/BDXCore/untitled/library.cpp
+library.h
+D:/BDXCore/untitled/library.h
+
+D:/BDXCore/untitled/library.h
+windows.h
+-
+iostream
+-
+string
+-
+unordered_map
+-
+chrono
+-
+map
+-
+set
+-
+utility
+-
+./Detours/include/detours.h
+D:/BDXCore/untitled/Detours/include/detours.h
+

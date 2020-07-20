@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(untitled)
+link_directories(./Detours/lib.X64)
+set(CMAKE_CXX_STANDARD 17)
+aux_source_directory(. DIR_SCRS)
+add_library(untitled SHARED ${DIR_SCRS})
+target_link_libraries(untitled detours.lib)
